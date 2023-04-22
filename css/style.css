@@ -1,0 +1,31 @@
+.gambarbg {
+    background-image: url("../img/bg.png");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-position: 50% 50%;
+    position: absolute;
+    z-index: -100;
+    filter: blur(2px);
+    background-color: black;
+    margin-left: -15px;
+}
+
+div.icon {
+    background-image: url("../img/acen.png");
+
+}
+
+
+
+.nav-item a {
+    color: whitesmoke;
+    transition: .8s;
+    
+}
+
+.nav-item:hover a {
+    color: grey;
+} 
